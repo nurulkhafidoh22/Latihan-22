@@ -31,8 +31,8 @@ public class SIRegPagi22166012Latihan22Lingkaran {
             if (input.hasNextDouble()) {
                 diameter = input.nextDouble();                
                 jarijari = diameter / 2;
-                luas =  Math.PI * jarijari * jarijari ;
-                keliling = Math.PI * 2 * jarijari ;
+                luas =  phi * jarijari * jarijari ;
+                keliling = 2 * phi * jarijari ;
                 
             //Hasil output perhitungan lingkaran
                 System.out.println("===== Hasil Perhitungan Lingkaran =====");
